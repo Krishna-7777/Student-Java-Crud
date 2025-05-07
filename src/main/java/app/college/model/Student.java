@@ -23,7 +23,4 @@ public class Student {
 
     @Column
     private String email;
-
-//    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
-//    private List<Enrollments> enrollments;
 }
