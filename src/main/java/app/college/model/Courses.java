@@ -17,7 +17,4 @@ public class Courses {
 
     @Column
     private String name;
-
-//    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
-//    private List<Enrollments> enrollments;
 }
